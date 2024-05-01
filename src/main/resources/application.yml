@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cosmosdb-gremlin-starter
+
+cosmosdb:
+  host: ${GREMLIN_HOST} #cosmos db host (ex: <account-name>.gremlin.cosmos.azure.com)
+  key: ${GREMLIN_KEY} #cosmos db key
+  port: 443
+  database: graphdb #database name
+  collection: Persons #collection name
